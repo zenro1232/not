@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>not.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #6897bb;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+not.java</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s1">java.util.Scanner</span><span class="s0">;</span>
+
+<span class="s0">public class </span><span class="s1">not {</span>
+    <span class="s0">public static void </span><span class="s1">main(String[] args) {</span>
+        <span class="s0">int </span><span class="s1">mat</span><span class="s0">,</span><span class="s1">ingilizce</span><span class="s0">,</span><span class="s1">kimya</span><span class="s0">,</span><span class="s1">fizik</span><span class="s0">,</span><span class="s1">tarih</span><span class="s0">,</span><span class="s1">resim</span><span class="s0">;</span>
+        <span class="s1">Scanner tah = </span><span class="s0">new </span><span class="s1">Scanner(System.in)</span><span class="s0">;</span>
+
+
+        <span class="s1">System.out.print(</span><span class="s2">&quot;Matematik notunuz : &quot; </span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">mat = tah.nextInt()</span><span class="s0">;</span>
+        <span class="s1">System.out.print(</span><span class="s2">&quot;ingilizce notunuz : &quot; </span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">ingilizce = tah.nextInt()</span><span class="s0">;</span>
+        <span class="s1">System.out.print(</span><span class="s2">&quot;kimya notunuz : &quot; </span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">kimya = tah.nextInt()</span><span class="s0">;</span>
+        <span class="s1">System.out.print(</span><span class="s2">&quot;fizik notunuz : &quot; </span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">fizik = tah.nextInt()</span><span class="s0">;</span>
+        <span class="s1">System.out.print(</span><span class="s2">&quot;tarih notunuz : &quot; </span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">tarih = tah.nextInt()</span><span class="s0">;</span>
+        <span class="s1">System.out.print(</span><span class="s2">&quot;resim notunuz : &quot; </span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">resim = tah.nextInt()</span><span class="s0">;</span>
+        <span class="s0">int  </span><span class="s1">sonuc  = mat+ ingilizce + kimya + fizik + tarih + resim</span><span class="s0">;</span>
+        <span class="s0">int </span><span class="s1">bit = sonuc / </span><span class="s3">6</span><span class="s0">;            ;</span>
+        <span class="s1">System.out.print(</span><span class="s2">&quot;Ortalamanız : &quot; </span><span class="s1">+ bit)</span><span class="s0">;</span>
+        <span class="s0">int </span><span class="s1">a = </span><span class="s3">59</span><span class="s0">;</span>
+        <span class="s0">boolean </span><span class="s1">tar = a &gt;= bit</span><span class="s0">;</span>
+
+        <span class="s1">String kalma=tar  ? </span><span class="s2">&quot;</span><span class="s0">\n </span><span class="s2">Kaldınız&quot; </span><span class="s1">: </span><span class="s2">&quot;</span><span class="s0">\n </span><span class="s2">Geçtiniz&quot;</span><span class="s0">;</span>
+        <span class="s1">System.out.println(kalma)</span><span class="s0">;</span>
+
+
+    <span class="s1">}}</span></pre>
+</body>
+</html>
